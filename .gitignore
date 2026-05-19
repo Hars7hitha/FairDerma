@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Data folders (large files)
+data/ham10000/
+data/ham10000_cleaned/
+data/ddi/
+
+# Model weights
+outputs/*.pth
+
+# Outputs (generated files)
+outputs/*.png
+outputs/*.csv
+outputs/*.json
+outputs/fairness/
+outputs/gradcam/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
